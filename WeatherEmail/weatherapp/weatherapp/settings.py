@@ -126,7 +126,7 @@ STATIC_URL = '/static/'
 # Email Setup
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'weatherappdjangoklaviyo@gmail.com'
-EMAIL_HOST_PASSWORD = 'Klaviyoiscool!'
+EMAIL_HOST_PASSWORD = ''# HIDDEN
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USL_SSL = False

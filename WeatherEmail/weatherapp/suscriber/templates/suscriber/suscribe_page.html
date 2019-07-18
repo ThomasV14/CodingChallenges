@@ -1,0 +1,10 @@
+{% extends "suscriber/base.html" %}
+{% block body_block %}
+<div class="jumbotron" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);">
+	<form class="form-group" method="POST">
+	{{form.as_p}}
+	{% csrf_token %}
+	<input type="submit" class="btn btn-dark" value="Subscribe" style="display: block; margin: 0 auto;">		
+</form>
+</div>
+{% endblock %}
